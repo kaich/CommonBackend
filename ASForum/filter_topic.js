@@ -52,7 +52,7 @@ defineClass('ASForum.NodeTopicListViewController', {
 defineClass('ASForum.RightViewController', {
 
   filterNodes: function() {
-    var keywords = ["越狱"]
+    var keywords = [""]
     var filteredNodes = []
     var nodes = self.rightNodes().toJS()
     for(var i = 0 ; i < nodes.length ; i ++) {
